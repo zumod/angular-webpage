@@ -2,9 +2,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Kingsmart</title>
 </head>
 <body>
-    Kingsmart demo site
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <button class="btn" style="color: white; float: left;" type="submit"><i class="fa fa-bars" aria-hidden="true"></i></button>
+          
+          <a class="navbar-brand" href="#"><h3>KINGSMART</h3></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collpase navbar-collapse" id="navbarNav">
+      
+            <form class="navbar-form justify-content-end" role="search">
+            <div class="input-group md-form form-sm form-2 pl-0" style="width: 500px;">
+              <input class=" form-control " type="text" placeholder="Search essentials,groceries and more..." aria-label="Search" required>
+              <div class="input-group-append">
+                <button class="btn  button" type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+            </form>
+            <div class="container justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" style="color: white;" routerLinkActive="active" href="#">
+           search with list</a>
+        </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" routerLinkActive="active" href="#"><i class="fa fa-shopping-cart"></i>
+           Cart</a>
+        </li>
+          <li class="nav-item">
+           
+            <a class="nav-link"  style="color: white;"routerLinkActive="active" href="#"><i class="fa fa-user-circle"></i>
+              Sign In</a>
+          </li>
+          <li class="nav-item">
+           
+            <a class="nav-link"  style="color: white;"routerLinkActive="active" href="#">
+             More</a>
+          </li>
+        
+        </ul>
+      </div>
+        </div>
+      
+      
+      </nav>
+      <div class="navbar container1 static" >
+        
+        <div class="row justify-content-md-center">
+          <ul  class="navbar-nav" >
+            <li class="nav-item ">
+         
+            <a class=" nav-link dropdown-link" routerLinkActive="active" href="#" style="color: rgb(117, 115, 115);"><i class="fa fa-map-marker"></i>
+              Deliver to</a>
+         </li>
+         </ul>
+          <div class="col col-lg-1">
+            <ul  class="nav nav-pills" >
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >All categories</a>
+              <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item"></a>
+                  <a href="#" class="dropdown-item"></a>
+                 
+              </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Fruits&Veg</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Dairy&Bakery</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Staples</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+             
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Snacks</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Beverages</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+             
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >PersonalCare</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >Homecare</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >BabyCare</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+             
+          </div>
+      </li>
+      </ul>
+      </div>
+      <div class="col col-lg-1">
+        <ul  class="nav nav-pills" >
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown" >CovidEssentials</a>
+          <div class="dropdown-menu">
+              <a href="#" class="dropdown-item"></a>
+              <a href="#" class="dropdown-item"></a>
+              
+          </div>
+      </li>
+      </ul>
+      </div>
+      
+        </div>
+          
+      </div>
+      <div class="container container2">
+        <br>
+        <h2 style="text-align: center;"></h2>
+         
+        
+        <router-outlet></router-outlet>
+          
+      </div>
+      <!-- Footer -->
+      <footer class="page-footer font-small footer" >
+      
+        <div class="footdiv">
+          <div class="container">
+      
+            <div class="row py-4 d-flex align-items-center">
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0"><a href="#top">Back to top </a></h6>
+              </div>
+          
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+                <!-- Facebook -->
+                <a class="fb-ic">
+                  <i class="fa fa-facebook-f white-text mr-4"> </i>
+                </a>
+                
+                <!--Instagram-->
+                <a class="ins-ic">
+                  <i class="fa fa-instagram white-text"> </i>
+                </a>
+      
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row-->
+      
+          </div>
+        </div>
+      
+        <!--  Links -->
+        <div class="container text-center text-md-left mt-5">
+      
+          <!-- row -->
+          <div class="row mt-3">
+      
+            <!--  column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+             
+              <p>
+                <a href="#!">Get to know us</a>
+              </p>
+              <p>
+                <a href="#!">About us</a>
+              </p>
+              <p>
+                <a href="#!">Careers</a>
+              </p>
+              <p>
+                <a href="#!">Press Release</a>
+              </p>
+              <p>
+                <a href="#!">KingsMart Cares</a>
+              </p>
+              <p>
+                <a href="#!">Gift a smile</a>
+              </p>
+      
+            </div>
+           
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <p>
+                <a href="#!">Connect with Us</a>
+              </p>
+              <p>
+                <a href="#!">Facebook</a>
+              </p>
+              <p>
+                <a href="#!">Twitter</a>
+              </p>
+              <p>
+                <a href="#!">Instagram</a>
+              </p>
+      
+            </div>
+           
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <p>
+                <a href="#!">Make money with us</a>
+              </p>
+              <p>
+                <a href="#!">Sell on kingsmart</a>
+              </p>
+              <p>
+                <a href="#!">Sell under kingsmart accelator</a>
+              </p>
+              <p>
+                <a href="#!">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!">Fulfillment by Kingsmart</a>
+              </p>
+              <p>
+                <a href="#!">Advertise your Products</a>
+              </p>
+              <p>
+                <a href="#!">Merchants</a>
+              </p>
+      
+            </div>
+          
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <p>
+                <i class="fa fa-envelope mr-3"></i> info@kingsmart.com</p>
+              <p>
+                <i class="fa fa-phone mr-3"></i> + 91 9846811422</p>
+              <p>
+                <i class="fa fa-print mr-3"></i> + 91 8942428155</p>
+      
+            </div>
+            <!--column -->
+      
+          </div>
+          <!--  row -->
+      
+        </div>
+        <!-- Footer Link -->
+        <div class="footer-copyright text-center py-3 footlink" >© 2020 Copyright:
+          <a href="https://KingsMart.com/"> KingsMart.com</a>
+        </div>
+      
+      </footer>
+      <!-- Footer -->
+
+
 </body>
 </html>
